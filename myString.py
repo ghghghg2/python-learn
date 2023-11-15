@@ -5,7 +5,7 @@
 # '+' for cascade string
 # '*' for repeat string
 # string indexing: 0 (left to right), -1 (right to left)
-# sub-string indexing: str[head(include):(tail)(not include):(step)]
+# sub-string indexing: str[head(>=):(tail)(<):(step)]
 
 paragraph = \
 '''This is a sentence. 
